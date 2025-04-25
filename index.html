@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional Data Science Portfolio showcasing machine learning projects, data analysis expertise, and statistical modeling skills">
+  <title>Data Science Portfolio | Maulik Raval</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <header role="banner">
+    <div class="container">
+      <nav role="navigation">
+        <!-- <a href="#hero" class="logo">Maulik Raval /a> -->
+      <a href="#hero" class="logo" style="font-family: Georgia, serif;">Maulik Raval</a>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Transforming Data into Decisions</h1>
+          <p class="subtitle">Data Scientist | Machine Learning Engineer | AI Enthusiast</p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn">Get in Touch</a>
+            <a href="#projects" class="btn secondary">View Projects</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="/Users/maulikraval/Desktop/Portfolio/InShot_20250425_112201647.png" alt="[Maulik Raval] professional photo" loading="lazy" class="custom-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-content">
+            <h3>Yoga Pose Prediction and Realtime Feedback System</h3>
+            <p class="tech-stack">Python • Tensorflow • Image Processing • Scikit-learn • Custom Geometry Algorithms • Flask </p>
+            <p>The yoga pose prediction system begins with image preprocessing where input frames are resized and augmented to improve model robustness. MoveNet, a lightweight pose estimation model, then detects 17 key body points with high precision. These key points feed into a Random Forest classifier that identifies specific yoga poses by analyzing spatial relationships between joints. Finally, the system calculates joint angles using vector geometry, compares them to ideal pose benchmarks, and generates real-time feedback on alignment deviations through visual overlays and corrective suggestions.</p>
+            <div class="project-links">
+              <a href="https://github.com/cantor08/Yoga-Pose-Detection" class="link-icon"><i class="fab fa-github"></i> Code</a>
+              <!-- <a href="#" class="link-icon"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+            </div>
+          </div>
+        </article>
+        
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>Early-Stage Diabetes Risk Assessment Using Balanced Classification Models</h3>
+            <p class="tech-stack">Python • Scikit-learn • Imbalanced-learn • Data Visualization • Feature Engineering </p>
+            <p>The project begins with comprehensive data exploration and visualization to understand diabetes prevalence patterns and feature correlations. After addressing class imbalance using SMOTE, three classification models (Logistic Regression, Linear SVM, and Kernel SVM) are trained and evaluated using recall, precision, and ROC-AUC metrics. Feature importance analysis identifies key risk factors like general health, blood pressure, and BMI. The workflow culminates in an interactive diabetes risk prediction tool that takes user inputs, standardizes them, and provides risk assessment using the best-performing kernel SVM model.</p>
+            <div class="project-links">
+              <a href="https://github.com/cantor08/Early-Stage-Diabetes-Risk-Assessment-Using-Balanced-Classification-Models" class="link-icon"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <h3>House Price Prediction System</h3>
+            <p class="tech-stack">Python • Data Preprocessing • Data Visualization • Scikit-learn • Flask </p>
+            <p>Developed a House Price Prediction Model during an internship at Enlighten Infosystems, leveraging Python, Flask, and MySQL to build a scalable ML solution. The system processes real estate data (square footage, location, etc.) using Linear Regression, Random Forest, and LightGBM, achieving optimized accuracy through hyperparameter tuning. A Flask-based web app enables users to input property details and receive instant price estimates, supported by a secure MySQL backend. This project enhanced my skills in ML deployment, EDA, and full-stack integration, delivering a practical tool for real estate valuation.</p>
+            <div class="project-links">
+              <a href="https://github.com/cantor08/House-Price-Prediction" class="link-icon"><i class="fab fa-github"></i> Code</a>
+              <!-- <a href="#" class="link-icon"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="skills" class="section bg-dark">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Data Analysis</h3>
+          <ul class="skill-list">
+            <li>Python (Pandas, NumPy)</li>
+            <li>SQL</li>
+            <li>R</li>
+            <li>Tableau</li>
+          </ul>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Machine Learning</h3>
+          <ul class="skill-list">
+            <li>Scikit-learn</li>
+            <li>TensorFlow/Keras</li>
+            <li>PyTorch</li>
+            <li>MLOps</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      
+      <div class="skills-container">
+        <!-- Programming Languages -->
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Programming</h3>
+          <ul>
+            <li>Python (Pandas, NumPy, SciPy)</li>
+            <li>SQL (PostgreSQL, MySQL, BigQuery)</li>
+          </ul>
+        </div>
+        
+        <!-- Machine Learning -->
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+          <ul>
+            <li>Supervised Learning (Regression, Classification)</li>
+            <li>Unsupervised Learning (Clustering, PCA)</li>
+            <li>Deep Learning (TensorFlow, PyTorch)</li>
+            <li>Model Evaluation (Hyperparameter Tuning, SHAP)</li>
+          </ul>
+        </div>
+        
+        <!-- Data Engineering -->
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Data Engineering</h3>
+          <ul>
+            <li>ETL Pipelines</li>
+            <li>Data Visualization (Matplotlib, Seaborn)</li>
+            <li>Statistical Analysis</li>
+          </ul>
+        </div>
+        
+        <!-- Cloud & DevOps -->
+        <div class="skill-category">
+          <h3><i class="fas fa-cloud"></i> Cloud & Tools</h3>
+          <ul>
+            <li>AWS (S3, EC2, SageMaker)</li>
+            <li>Version Control (Git/GitHub)</li>
+            <li>OOP & Functional Programming</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Soft Skills Section -->
+  <section id="soft-skills" class="section bg-dark">
+    <div class="container">
+      <h2 class="section-title">Professional Skills</h2>
+      
+      <div class="soft-skills-container">
+        <div class="soft-skill">
+          <i class="fas fa-chart-line"></i>
+          <h3>Data Storytelling</h3>
+          <p>Translating complex insights into actionable business recommendations</p>
+        </div>
+        
+        <div class="soft-skill">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Problem Solving</h3>
+          <p>Structured approach to breaking down analytical challenges</p>
+        </div>
+        
+        <div class="soft-skill">
+          <i class="fas fa-users"></i>
+          <h3>Collaboration</h3>
+          <p>Experience working in Agile teams with Git workflows</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      
+      <div class="about-grid">
+        <!-- Profile Summary -->
+        <div class="about-content">
+          <h3 class="about-subtitle">Data Scientist | Machine Learning Engineer</h3>
+          <p class="about-text">
+            I am Maulik Sanjaykumar Raval, a passionate and dedicated Computer Science graduate currently pursuing my Master's in Computer Science (Data Science) at the University of Regina. With a strong foundation in software development, data analysis, and problem-solving, I aim to leverage technology to build impactful solutions. I bring prior experience in customer service and technical projects, and I’m continuously seeking opportunities to grow, innovate, and contribute meaningfully in the tech industry.
+          </p>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="experience">
+          <h3><i class="fas fa-briefcase"></i> Professional Experience</h3>
+          
+          <!-- Job 1 -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h4>Student Sucess Tutor</h4>
+              <span class="timeline-date">2022 - Present</span>
+            </div>
+            <p class="timeline-company">University of Regina</p>
+            <ul class="timeline-description">
+              <li><p>Mentorship in CS & Math: Tutoring at the University of Regina’s Student Success Center, </p><p>I empower students in core subjects like Python (CS 165), C programming (CS 110), </p></p>Linear Algebra (MATH 122), and Calculus I (MATH 110).</p></li>
+                <li>Strengths Demonstrated: Proven ability in technical instruction, debugging, algorithm design, </p><p>and simplifying complex topics for clearer understanding and impactful communication.</li>
+            </ul>
+          </div>
+
+          <!-- Job 2 -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h4>Exam Invigilator</h4>
+              <span class="timeline-date">FEB 2025 - MAR 2025</span>
+            </div>
+            <p class="timeline-company">University of Regina</p>
+            <ul class="timeline-description">
+              <li><p>Exam Supervisor for CS Courses – Oversaw exams for CS 100, CS 210, and CS 215, ensuring </p><p>academic integrity, managing logistics, and supporting students within university guidelines.</li>
+                <li><p>Efficient & Ethical Operations – Collaborated with faculty on issue resolution and reporting, </p><p>strengthening organizational, communication, and conflict-resolution skills in high-pressure </p><p>academic settings.</li>
+            </ul>
+          </div>
+
+          <!-- Job 3 -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h4>Data Scientist (internship)</h4>
+              <span class="timeline-date">JAN 2024 - SEP 2024</span>
+            </div>
+            <p class="timeline-company">Enlighten Infosystems, India</p>
+            <ul class="timeline-description">
+              <li><p>Built a House Price Prediction System using Python, Scikit-learn, and TensorFlow with ~90% </p><p>accuracy through optimized regression models</p></li>
+              <li><p>Enhanced model performance via feature engineering, including geospatial analysis and </p><p> outlier detection.</p></li>
+              <li><p>Streamlined data workflows using Pandas and NumPy, cutting preprocessing time by 30% </p><p> and boosting scalability.</p></li>
+            </ul>
+          </div>
+        </div>
+
+          <!-- Job 3 -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h4>Python Developer(internship)</h4>
+              <span class="timeline-date">JUL 2023 - JAN 2024</span>
+            </div>
+            <p class="timeline-company">BrainyBeam Technologies Pvt. Ltd. , India</p>
+            <ul class="timeline-description">
+              <li><p>Built a Blood Bank Management System using Python, Django, and SQL to streamline donor </p><p> registration, inventory, and request workflows.</p></li>
+              <li><p>Integrated real-time alerts via RESTful APIs (SMS/email), improving donor/admin response </p><p>times by 30%. </p></li>
+              <li><p>Ensured data security with authentication, encryption, and role-based access in line with </p><p> healthcare privacy standards. </p></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="education">
+          <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+          
+          <!-- Degree 1 -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h4>Masters of Science in Data Science</h4>
+              <span class="timeline-date">2024 - Present</span>
+            </div>
+            <p class="timeline-company">University of Regina, Canada</p>
+            <ul class="timeline-description">
+              <li>GPA: 3.8/4.0</li>
+            </ul>
+          </div>
+
+          <!-- Degree 2 -->
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <h4>Bechalors of Engineering in Computer Science</h4>
+              <span class="timeline-date">2020 - 2024</span>
+            </div>
+            <p class="timeline-company">Gujarat Technological University, India</p>
+            <ul class="timeline-description">
+              <li>GPA: 3.56/4.0</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Data scientist with 3+ years experience in building end-to-end machine learning solutions. Specialized in:</p>
+          <ul class="expertise-list">
+            <li>Time Series Forecasting</li>
+            <li>Natural Language Processing</li>
+            <li>Big Data Analytics</li>
+          </ul>
+          <p>MS in Data Science from [University Name]</p>
+        </div>
+        <div class="certifications">
+          <h3>Certifications</h3>
+          <div class="cert-grid">
+            <div class="cert-item">
+              <i class="fas fa-certificate"></i>
+              <p>AWS Certified Machine Learning</p>
+            </div>
+            <div class="cert-item">
+              <i class="fas fa-certificate"></i>
+              <p>Google Data Analytics Professional</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="contact" class="section bg-dark">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> maulikraval410@gmail.com</p>
+          <p><i class="fas fa-phone"></i> +1 (306) 502-6827</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/cantor-sk"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/cantor_410/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="current-year"></span>All rights reserved by Maulik Raval</p>
+    </div>
+  </footer>
+
+
+  <!-- Add SheetJS library for Excel export -->
+  <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
+  
+  <script src="script.js"></script>
+</body>
+</html>
